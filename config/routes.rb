@@ -7,6 +7,7 @@ namespace :api do
     get '/students' => 'students#index'
     post '/students' => 'students#create'
     patch '/students/:id' => 'students#update'
+    get '/students/:id' => 'students#show'
     end
   end
 end
