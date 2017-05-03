@@ -23,13 +23,35 @@
 
 # end
 
-  Student.all.each do |student|
-    Experience.create(
-      student_id: student.id,
-      start_date: Faker::Date.between(2.days.ago, Date.today),
-      end_date: "CURRENT",
-      job_title: Faker::Job.title,
-      company_name: Faker::Company.name,
-      details: Faker::Company.bs,
-      )
-    end
+  # Student.all.each do |student|
+  #   Experience.create(
+  #     student_id: student.id,
+  #     start_date: Faker::Date.between(2.days.ago, Date.today),
+  #     end_date: "CURRENT",
+  #     job_title: Faker::Job.title,
+  #     company_name: Faker::Company.name,
+  #     details: Faker::Company.bs,
+  #     )
+  #   end
+
+# Student.all.each do |student|
+#   Education.create(
+#   start_date: Faker::Date.between(1000.days.ago, Date.today),
+#   end_date: Faker::Date.between(900.days.ago, Date.today),
+#   degree: Faker::Educator.course,
+#   university: Faker::Educator.university,
+#   details: Faker::Company.catch_phrase,
+#   student_id: student.id
+# )
+# end
+
+
+
+
+
+
+
+
+
+
+
